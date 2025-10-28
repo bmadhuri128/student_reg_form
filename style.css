@@ -1,0 +1,161 @@
+body{
+    background-color:#fff5fa ;
+    margin: 0px;
+}
+#SectionForm{
+    width:50% ;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px auto;
+    background-color: rgb(249, 246, 242);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+#SectionBtn{
+    text-align: center;
+    margin-top: 20px;
+}
+#SectionBtn input[type="submit"]{
+    height: 36px;
+    width: 110px;
+    background-color:#082d3b ;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+#SectionUser,
+#SectionPass,
+#SectionNum,
+#SectionMail {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+}
+
+#SectionUser input[type="text"]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(41, 38, 38);
+
+}
+#SectionPass input[type="Password"]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(41, 38, 38);
+
+}
+
+#SectionNum input[type="number"]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(41, 38, 38);
+
+}
+#SectionMail input[type="email"]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(41, 38, 38);
+
+}
+#SectionEdu input[type="radio"],
+#SectionGen input[type="radio"],
+#SectionStream input[type="radio"]{
+
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+    accent-color: #082d3b ;
+
+}
+#SectionEdu>label{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+}
+#SectionGen>label{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+}
+#SectionStream >label{
+     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+}
+#SectionEdu,
+#SectionGen,
+#SectionStream {
+  font-size: 18px;   
+}
+
+@media (max-width: 768px) {
+    #SectionForm {
+        width: 95%;
+        padding: 30px 20px;
+    }
+
+    #SectionUser > label,
+    #SectionPass > label,
+    #SectionNum > label,
+    #SectionMail > label,
+    #SectionEdu > label,
+    #SectionGen > label,
+    #SectionStream > label {
+        font-size: 20px;
+    }
+
+    #SectionBtn input[type="submit"] {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+#SectionHeader{
+    background-color: #082d3b;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+}
+#SectionFooter{
+    background-color: #082d3b;
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 480px) {
+    #SectionForm {
+        width: 95%;
+        padding: 25px 15px;
+    }
+
+    #SectionUser > label,
+    #SectionPass > label,
+    #SectionNum > label,
+    #SectionMail > label,
+    #SectionEdu > label,
+    #SectionGen > label,
+    #SectionStream > label {
+        font-size: 18px;
+    }
+
+    #SectionEdu,
+    #SectionGen,
+    #SectionStream {
+        line-height: 1.6;
+    }
+
+    #SectionBtn input[type="submit"] {
+        font-size: 16px;
+        height: 38px;
+    }
+}
